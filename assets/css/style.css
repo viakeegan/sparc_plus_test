@@ -5,8 +5,10 @@
   }
   
   body {
-    color: #39a6b2;
+    color: #160091;
     font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
   }
   
   
@@ -43,23 +45,9 @@
     margin: 7px 0;
   }
   
-  header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
-  
-  header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-  }
-  
   /* HEADER / NAVBAR STYLES END */
 
-  /* MEET THE TRAINERS START */
+  /* PRODUCTS */
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -86,21 +74,38 @@
   
   .trainer-bio h3 {
     font-size: 28px;
-  }
-  
-  .trainer-bio h4 {
-    font-weight: bolder;
-    font-size: 22px;
-    margin-bottom: 15px;
-  }
-  
-  .trainer-bio p {
-    font-size: 17px;
     font-weight: bolder;
   }
+  
   /* TRAINER STYLES END */
 
-
+/* FOOTER STYLES START */
+footer {
+    background: #ffffff;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  footer a {
+    color: #160091;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0;
+  }
+  /* END FOOTER STYLES */
+  
+  /* STYLE ALL SECTION TAGS */
+  section {
+    padding: 60px;
+  }
 
 
   /* UTILITIES */
@@ -135,21 +140,10 @@
       justify-content: center;
     }
   
-    header nav ul li a {
-      font-size: 20px;
-    }
   
     footer h2, footer div {
       text-align: center;
       width: 100%;
-    }
-  
-    .hero-cta, .hero-form {
-      width: 100%;
-    }
-  
-    .hero-cta {
-      text-align: center;
     }
   
     .section-title {
@@ -159,11 +153,7 @@
     .trainer {
       flex: 0 70%;
     }
-  
-    .contact-info iframe {
-      flex: 1 100%;
-    }
-  
+ 
   }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -176,10 +166,6 @@
   
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
-    .hero-form button {
-      width: 100%;
-    }
-  
     .section-title {
       width: 95%;
     }
