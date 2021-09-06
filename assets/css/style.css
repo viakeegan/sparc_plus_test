@@ -28,15 +28,15 @@
   }
   
   header h1 {
-    font-weight: bold;
+    font-weight: bolder;
     margin: 0;
-    font-size: 36px;
-    color: #fce138;
+    font-size: 44px;
+    color: #160091;
   }
   
   header a {
     text-decoration: none;
-    color: #fce138;
+    color: #160091;
   }
   
   header nav {
@@ -58,3 +58,44 @@
   }
   
   /* HEADER / NAVBAR STYLES END */
+
+  /* MEET THE TRAINERS START */
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .trainer {
+    margin: 20px;
+    flex: 1;
+    background: #ffffff;
+    color: #000000;
+  }
+  
+  .trainer img {
+    width: 100%;
+  }
+  
+  .trainer-bio {
+    padding: 25px;
+    line-height: 1.3;
+  }
+  
+  .trainer-bio h3 {
+    font-size: 28px;
+  }
+  
+  .trainer-bio h4 {
+    font-weight: bolder;
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .trainer-bio p {
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  /* TRAINER STYLES END */
